@@ -487,4 +487,5 @@ init python:
     DEVOPS: _('DevOps')
     }
 
-    all_skills = {**v1_skills, **v2_skills}
+    all_skills = deepcopy(v1_skills)
+    all_skills.update(v2_skills)

@@ -95,7 +95,6 @@ And thank you for playing the game :)
 
 define build.name = "LearnToCodeRPG"
 
-
 ## Sounds and music ############################################################
 
 ## These three variables control which mixers are shown to the player by

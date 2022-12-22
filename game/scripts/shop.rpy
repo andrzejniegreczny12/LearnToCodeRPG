@@ -16,7 +16,7 @@ init python:
             tag: whether the item is a chair, a laptop, etc.
             tag_priority: bigger number means the item will be displayed with priority
             '''
-            super().__init__(name, image, description, price, stats_change)
+            super(RoomItem, self).__init__(name, image, description, price, stats_change)
             self.tag = tag
             self.tag_priority = tag_priority
 

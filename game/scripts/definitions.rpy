@@ -129,8 +129,8 @@ init python:
     '''
     for chara in charas:
         renpy.image(chara + '_eyes_blink', DynamicBlink(
-            f"images/chara/{chara}/{chara}_eyes_open.png",
-            f"images/chara/{chara}/{chara}_eyes_closed.png"
+            "images/chara/" + chara + "/" + chara + "_eyes_open.png",
+            "images/chara/" + chara + "/" + chara + "_eyes_closed.png"
             )
         )
 
